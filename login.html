@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Tela Login</title>
+     <link rel="stylesheet" href="CSS/main_login.css">
+     <link rel="stylesheet" href="CSS/mobile_main_login.css">
+     <script src="https://kit.fontawesome.com/ce0639bc52.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <header>
+          <h3>UFS - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas</h3>
+     </header>
+     <section class="container">
+          <div class="att">
+               <p class="att_">
+                    ATENÇÃO!
+               </p>
+     
+               <p>
+                    O sistema diferencia letras maiúsculas de minúsculas APENAS na senha, portanto ela deve ser digitada da mesma maneira que no cadastro.
+               </p>
+          </div>
+          <div class="menu_op">
+
+               <a class="op" href="">
+                    <p>
+                         SIGAA
+                    </p>
+                   
+                    <P>
+                         (Acadêmico)
+                    </P>
+               </a>
+               <a class="op" href="">
+                    <p>
+                         SIPAC
+                    </p>
+                    <P>
+                         (Administrativo)
+                    </P>
+               </a>
+               <a class="op" href="">
+                    <p>
+                         SIGRH
+                    </p>
+                    <P>
+                         (Recursos Humanos)
+                    </P>
+               </a>
+               <a class="op" href="">
+                    <p>
+                         SIGADMIN
+                    </p>
+                    <P>
+                         (Administração e Comunicação)
+                    </P>
+               </a>
+               <a class="op" href="">
+                    <p>
+                         SIGEleição
+                    </p>
+                    <P>
+                         (Eleições Administrativas)
+                    </P>
+               </a>
+
+          </div>
+          <div class="rec">
+               <p>Perdeu o e-mail de confirmação de cadastro? <a href="">Clique aqui para recuperá-lo.</a></p>
+               <p>Esqueceu o login? <a href="">Clique aqui para recuperá-lo.</a></p>
+               <p>Esqueceu a senha? <a href="">Clique aqui para recuperá-la.</a></p>
+          </div>
+          <div class="main_">
+               <div class="main__"><h4>Entrar no Sistema</h4></div>
+               
+               <form>
+                   <div class="img_ct"></div>
+                   <div class="user">
+                       <i class="fa-solid fa-user fa-bounce"></i>
+                       <input id="user" maxlength="8" placeholder="  Usuário" type="text">
+                   </div>
+                   
+                   <div class="pass">
+                       <i class="fa-solid fa-lock fa-shake"></i>
+                       <input id="pass" maxlength="10" placeholder="  Senha" type="password">
+                   </div>
+  
+                  <input  type="button" class="enter_bt" onclick="location.href='index.html';" value="Entrar" />
+   
+                
+   
+   
+               </form>
+   
+           </div>
+
+          <div class="op_rec">
+               <div class="op_rec_">
+                    <p><strong>Professor ou Funcionário,</strong></p>
+                    <p>caso ainda não possua cadastro no SIGAA,</p>
+                    <p>clique no link abaixo.</p>
+                    <div>
+                         <input class="criar_bt" type="submit" value="Cadastre-se"/>
+                    </div>     
+               </div>
+               
+               <div class="op_rec_"> 
+                    <p><strong>Aluno,</strong></p>
+                    <p>caso ainda não possua cadastro no SIGAA,</p>
+                    <p>clique no link abaixo.</p>
+                    <div>
+                         <input class="criar_bt" type="submit" value="Cadastre-se"/>
+                    </div>    
+               </div>
+          </div>          
+
+     </section>
+</body>
+</html>
